@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="attendance-table">
+      <h2>Admin Dashboard</h2>
+
+      <div class="dropdown manager">
+        <button class="dropdown-button">Manager</button>
+
+        <div class="dropdown-content" id="managerDropdown">
+          <a href="manager1.html">Kevin O'neil</a>
+          <a href="manager2.html">Munima</a>
+          <a href="manager3.html">Jaspreet</a>
+          <a href="manager4.html">Monir</a>
+          <a href="manager5.html">Mridula</a>
+        </div>
+      </div>
+
+      <div class="dropdown location">
+        <button class="dropdown-button">Location</button>
+
+        <div class="dropdown-content" id="locationDropdown">
+          <a href="location1.html">Aberdeen</a>
+          <a href="location2.html">North Shore</a>
+          <a href="location3.html">ValleyView</a>
+          <a href="location4.html">Downtown</a>
+          <a href="location5.html">Kamloops</a>
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Manager</th>
+            <th>Status</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="avatar">👤</span>Wasif</td>
+            <td>Kevin O'neil</td>
+            <td><span class="status late">Active</span></td>
+            <td>09:12 AM</td>
+          </tr>
+          <tr>
+            <td><span class="avatar">👤</span>Kareena</td>
+            <td>Munima</td>
+            <td><span class="status late">Inactive</span></td>
+            <td>09:04 AM</td>
+          </tr>
+          <tr>
+            <td><span class="avatar">👤</span>Esteban</td>
+            <td>Jaspreet</td>
+            <td><span class="status on-time">Active</span></td>
+            <td>08:56 AM</td>
+          </tr>
+          <tr>
+            <td><span class="avatar">👤</span>Ahsan</td>
+            <td>Monir</td>
+            <td><span class="status on-time">Inactive</span></td>
+            <td>08:48 AM</td>
+          </tr>
+          <tr>
+            <td><span class="avatar">👤</span>Bihaan</td>
+            <td>Mridula</td>
+            <td><span class="status on-time">Active</span></td>
+            <td>08:40 AM</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

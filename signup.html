@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="signup-container">
+      <h1>Create an account</h1>
+
+      <div class="toggle-buttons">
+        <button class="active">Admin</button>
+        <a href="manager-signup.html"><button type="button">Manager</button></a>
+      </div>
+
+      <form>
+        <input type="text" placeholder="First Name" required />
+
+        <input type="email" placeholder="E-mail" required />
+
+        <input type="text" placeholder="Phone number" required />
+        <div class="password-container">
+          <input type="password" placeholder="Password" required />
+
+          <input type="password" placeholder="Confirm Password" required />
+
+          <input type="admin" placeholder="Admin Key" required />
+        </div>
+        <div class="policy-container">
+          <input type="checkbox" required />
+          <label>I accept the <a href="#">Privacy Policy</a></label>
+        </div>
+        <button type="submit" class="create-account">Create an Account</button>
+      </form>
+
+      <p class="login-link">
+        Already have an account? <a href="login.html">Log In</a>
+      </p>
+    </div>
+  </body>
+</html>

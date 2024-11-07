@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Imgs/background_img.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background: linear-gradient(to bottom, #e0f7fa, #fff);
+}
+
+
+
+.signup-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.signup-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.toggle-buttons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.toggle-buttons button.active {
+    background-color: #000;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form select {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form select {
+    color: #777;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+    width: 100%;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.policy-container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+    gap: 8px; /* Adjusts the spacing between checkbox and label */
+
+}
+
+.policy-container input[type="checkbox"] {
+    margin: 0; /* Removes any default margin on the checkbox */
+    width: auto; /* Ensures the checkbox remains standard size */
+}
+
+.policy-container label {
+    margin-left: 8px;
+}
+
+.policy-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.policy-container a:hover {
+    text-decoration: underline;
+}
+
+.create-account {
+    padding: 12px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.create-account:hover {
+    background-color: #e65c00;
+}
+
+.login-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* General styles for dropdown buttons */
+.dropdown {
+    position: absolute;
+    display: inline;
+}
+
+/* Manager button positioned 110px from the right */
+.manager {
+    right: 130px;
+    top: 20px;
+}
+
+/* Location button positioned 20px from the right */
+.location {
+    right: 30px;
+    top: 20px;
+}
+
+.dropdown-button {
+    padding: 6px 12px;
+    background-color: #f3f4f6;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: #555;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+}
+
+.dropdown-button:hover {
+    background-color: #e0e0e0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.9em;
+}
+
+.dropdown-content a:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f6f9;
+}
+
+.attendance-table {
+    width: 80%;
+    max-width: 700px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+}
+
+.attendance-table h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.manager, .location {
+    position: absolute;
+    padding: 6px 12px;
+    background-color: #f3f4f6;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: #555;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+.manager {
+    right: 140px; /* Position "Manager" button to the left of "Location" button */
+    top: 20px;
+    position: absolute;
+}
+
+.location {
+    right: 20px; /* Position "Location" button closer to the top-right corner */
+    top: 20px;
+}
+
+
+
+.manager:hover, .location:hover {
+    background-color: #e0e0e0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-size: 0.95em;
+}
+
+thead th {
+    color: #888;
+    font-weight: bold;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+tbody tr {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+tbody tr:last-child {
+    border-bottom: none;
+}
+
+.avatar {
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    color: #fff;
+}
+
+.status.late {
+    background-color: #ff6b6b;
+}
+
+.status.on-time {
+    background-color: #a3e635;
+}
+
+td {
+    color: #333;
+}
+
+td:last-child {
+    text-align: right;
+    color: #666;
+}
+
+thead th:last-child {
+    text-align: right;
+}
+
